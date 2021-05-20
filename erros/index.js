@@ -1,3 +1,4 @@
 const generalErrorHandler = require('./generalErrorHandler');
+const errorGenerator = require('./errorGenerator');
 
-module.exports = { generalErrorHandler };
+module.exports = { generalErrorHandler, errorGenerator };
